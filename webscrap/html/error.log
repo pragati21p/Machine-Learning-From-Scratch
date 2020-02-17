@@ -1,0 +1,228 @@
+ERROR:root:name 'urlopen' is not defined
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 20, in retrieve_webpage
+    html = urlopen(self.__url)
+NameError: name 'urlopen' is not defined
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 35, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 36, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:[Errno 13] Permission denied: 'html/data.csv'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 32, in write_webpage_as_html
+    with open(filepath, 'wb') as fobj:
+PermissionError: [Errno 13] Permission denied: 'html/data.csv'
+ERROR:root:[Errno 13] Permission denied: 'html/data.csv'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 32, in write_webpage_as_html
+    with open(filepath, 'wb') as fobj:
+PermissionError: [Errno 13] Permission denied: 'html/data.csv'
+ERROR:root:[Errno 13] Permission denied: 'html/data.csv'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 32, in write_webpage_as_html
+    with open(filepath, 'wb') as fobj:
+PermissionError: [Errno 13] Permission denied: 'html/data.csv'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 36, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 36, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:<urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1384, in connect
+    super().connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 23, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 38, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:<urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1384, in connect
+    super().connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 23, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 38, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:<urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1384, in connect
+    super().connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 23, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 38, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
+ERROR:root:<urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+Traceback (most recent call last):
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1317, in do_open
+    encode_chunked=req.has_header('Transfer-encoding'))
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 1384, in connect
+    super().connect()
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\http\client.py", line 928, in connect
+    (self.host,self.port), self.timeout, self.source_address)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+OSError: [WinError 10065] A socket operation was attempted to an unreachable host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 23, in retrieve_webpage
+    html = urlopen(self.__url)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 222, in urlopen
+    return opener.open(url, data, timeout)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 525, in open
+    response = self._open(req, data)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 543, in _open
+    '_open', req)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 503, in _call_chain
+    result = func(*args)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1360, in https_open
+    context=self._context, check_hostname=self._check_hostname)
+  File "C:\Users\DELL\AppData\Local\Programs\Python\Python37-32\lib\urllib\request.py", line 1319, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10065] A socket operation was attempted to an unreachable host>
+ERROR:root:a bytes-like object is required, not 'str'
+Traceback (most recent call last):
+  File "C:/Users/DELL/Documents/webscrap/chapter4.py", line 38, in write_webpage_as_html
+    fobj.write(self.__data)
+TypeError: a bytes-like object is required, not 'str'
