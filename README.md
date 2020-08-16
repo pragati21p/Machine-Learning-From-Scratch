@@ -12,7 +12,6 @@
 *   Linear Regression (using Gradient Descent Optimizer)
 *   Logistic Regression (using Gradient Descent Optimizer)
 *   Local weighted Regression
-*   web scraping
 *   sylvester criterion
 *   Random Network
 
